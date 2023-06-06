@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu:wght@500&display=swap");
+h1 {
+	font-size: 64px;
+	padding-top: 5%;
+	text-align: center;
+	font-family: "Ubuntu";
+	font-weight: bold;
+}
+
+#hotse {
+	display: block;
+
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+}
+
+#p2 {
+	display: flex;
+}
+
+#p2 h3 {
+	font-family: "Nunito";
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 32px;
+}
+
+#p2 p {
+	margin-left: 7em;
+	margin-right: 7em;
+}
+
+#body2 {
+	display: flex;
+}
+
+#body2 img {
+	position: absolute;
+	left: 70%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#body2 h3 {
+	font-family: "Nunito";
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 32px;
+}
+
+#body2 p {
+	margin-left: 23em;
+	margin-right: 7em;
+}
+
+#appleLOG {
+	border: 1px white;
+	border-radius: 20%;
+	float: right;
+}
+
+#p3 p {
+	margin-left: 23em;
+	margin-right: 7em;
+}
+
+#sexlaugh {
+	margin-left: 5%;
+	float: left;
+}
+
+#p3 img {
+	right: 70%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#p4 p {
+	margin-left: 23em;
+	margin-right: 7em;
+}
+
+#gigachadsteve {
+	margin-right: 5%;
+	float: right;
+}
+
+#p4 img {
+	left: 70%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+	font-family: "Nunito";
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 32px;
+}
+
+p {
+	font-family: "Nunito";
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	text-align: center;
+	font-weight: 400;
+	font-size: 24px;
+	width: 520px;
+	width: 404px;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 1.25rem;
+	font-family: "GT America", Helvetica, Arial;
+
+	color: #787878;
+	text-align: center;
+	font-style: italic;
+}
+
+body {
+	background-color: white;
+}
+
+hr {
+	border-radius: 5px;
+	width: 100%;
+}
+
+.outro {
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+a {
+	font-family: "Nunito";
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: rgb(21, 18, 18);
+}
+
+@keyframes rainbowchanger {
+	16% {
+		color: lightcoral;
+	}
+	32% {
+		color: orange;
+	}
+	50% {
+		color: greenyellow;
+	}
+	70% {
+		color: lightseagreen;
+	}
+	100% {
+		color: purple;
+	}
+}
+
+#p4 {
+	animation-name: rainbowchanger;
+	animation-duration: 120s;
+}
